@@ -11,19 +11,19 @@
             font-family: 'Ubuntu', sans-serif;
         }
         
-        h1 {
+        .index h1 {
             text-align: center;
         }
         
-        span {
+        .index span {
             color: black;
             background-color: rgba(255, 255, 255, 0.5);
             border-radius: 20px 20px 20px 20px;
             padding: 15px;
         }
         
-        img {
-            width: 15%;
+        .index img {
+            width: 20%;
         }
         
         .index a {
@@ -45,7 +45,7 @@
             font-family: 'Ubuntu', sans-serif;
         }
         
-        a {
+        .arceus-a {
             text-decoration: none;
             color: black;
             padding: 10px;
@@ -53,7 +53,7 @@
             border-radius: 10px;
         }
         
-        span {
+        .arceus span {
             background-color: #a4acaf;
             padding: 2px;
             border-radius: 4px;
@@ -63,6 +63,126 @@
             text-align: center;
         }
         
-        img {
+        .arceus img {
             width: 20%;
+        }
+        /* darkrai.html */
+        
+        .darkrai {
+            background-image: url("../img/pokedex-background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Abel', sans-serif;
+            font-family: 'Concert One', cursive;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-family: 'Secular One', sans-serif;
+            font-family: 'Teko', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .darkrai span {
+            background-color: #616769;
+            padding: 2px;
+            border-radius: 4px;
+        }
+        
+        .darkrai a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            background-color: #616769;
+            border-radius: 10px;
+        }
+        
+        #enlace {
+            text-align: center;
+        }
+        
+        .darkrai img {
+            width: 20%;
+        }
+        /* deoxys.html */
+        
+        .deoxys {
+            background-image: url("../img/pokedex-background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Abel', sans-serif;
+            font-family: 'Concert One', cursive;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-family: 'Secular One', sans-serif;
+            font-family: 'Teko', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .deoxys a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            background-color: #c55edf;
+            border-radius: 10px;
+        }
+        
+        .deoxys span {
+            background-color: #c55edf;
+            padding: 2px;
+            border-radius: 4px;
+        }
+        
+        #enlace {
+            text-align: center;
+        }
+        
+        .deoxys img {
+            width: 30%;
+        }
+        /* uxie.html */
+        
+        .uxie {
+            background-image: url("../img/pokedex-background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: 'Abel', sans-serif;
+            font-family: 'Concert One', cursive;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-family: 'Secular One', sans-serif;
+            font-family: 'Teko', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .uxie a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            background-color: #c55edf;
+            border-radius: 10px;
+        }
+        
+        .uxie span {
+            background-color: #c55edf;
+            padding: 2px;
+            border-radius: 4px;
+        }
+        
+        #enlace {
+            text-align: center;
+        }
+        
+        .uxie img {
+            width: 25%;
+        }
+        /* Media query para el diseño responsive */
+        
+        @media only screen and (max-width: 600px) {
+            .index img,
+            .darkrai img,
+            .arceus img,
+            .deoxys img,
+            .uxie img,
+            {
+                width: 100%;
+            }
         }
