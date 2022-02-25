@@ -177,12 +177,19 @@
         /* Media query para el diseño responsive */
         
         @media only screen and (max-width: 600px) {
-            .index img,
-            .darkrai img,
-            .arceus img,
-            .deoxys img,
-            .uxie img,
-            {
+            .index img {
+                width: 100%;
+            }
+            .arceus img {
+                width: 100%;
+            }
+            .deoxys img {
+                width: 100%;
+            }
+            .darkrai img {
+                width: 100%;
+            }
+            .uxie img {
                 width: 100%;
             }
         }
